@@ -18,6 +18,15 @@ slightly different prose may need to be written in the two
 cases. Scribble's `cond-element` (which should be used only sparingly)
 may be useful in this case.
 
+## Documentation
+
+Once you've installed the package, you'll find documentation by
+searching for "scribble embedding" in your local installation (go to
+Help | Racket Documentation in DrRacket).
+
+The installed directory also contains a `sample` sub-directory that
+provides a file with examples. Just run `make` in that directory.
+
 ## Dependency
 
 The LaTeX version depends on Scribble continuing to recognize links in
