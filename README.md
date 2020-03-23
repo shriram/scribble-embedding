@@ -18,6 +18,22 @@ slightly different prose may need to be written in the two
 cases. Scribble's `cond-element` (which should be used only sparingly)
 may be useful in this case.
 
+## Quick Start
+
+1. Install this package:
+
+2. In a Scribble document,
+	```
+   @(require scribble-embedding)
+   ```
+   to load the library, and
+   ```
+   @(google-form <URL>)
+   @(youtube <URL>)
+   ```
+   to use it (where `<URL>` is the sharing URL generated from those
+	sites).
+
 ## Documentation
 
 Once you've installed the package, you'll find documentation by
@@ -39,7 +55,7 @@ here with permission.
 
 ## Acknowledgments
 
-Thanks to Kathi Fisler, who showed me how she did this in the Web
-version of the Bootstrap documents, and Danny Yoo, who helped her set
-that up. A Leif Andersen post on StackOverflow was invaluable to start
-figuring out the LaTeX version.
+Thanks to Kathi Fisler, who showed me how she did something similar in
+the Web version of the Bootstrap documents, and Danny Yoo, who helped
+her set that up. A Leif Andersen post on StackOverflow was invaluable
+to start figuring out the LaTeX version.
